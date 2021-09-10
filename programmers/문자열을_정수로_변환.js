@@ -7,5 +7,3 @@ function solution(s) {
 	document.write(typeof answer);
 	return answer;
 }
-
-solution(-3654.2);
