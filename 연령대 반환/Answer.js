@@ -1,4 +1,10 @@
 function printAgeGroup(age) {
+  return answer < 10 ? "10대 미만" : age >= 90 ? "90대 이상" : (age+"")[0] + "0대";
+}
+
+
+// other people
+function other(age) {
   if(typeof age !== "number" || age < 0 || age > 120 || !Number.isInteger(age)){
     return "Error";
   }
