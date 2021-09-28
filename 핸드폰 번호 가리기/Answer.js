@@ -7,13 +7,13 @@ function solution(phone_number) {
 function old1(phone_number) {
   var answer = '';
 
-      for(var i = phone_number.length-1; i >= 0; i--){
-          if(i > phone_number.length-5){
-              answer = phone_number[i] + answer;
-          } else{
-              answer = "*" + answer;
-          }
-      }
+  for(var i = phone_number.length-1; i >= 0; i--){
+    if(i > phone_number.length-5){
+        answer = phone_number[i] + answer;
+    } else{
+        answer = "*" + answer;
+    }
+  }
   return answer;
 }
 
